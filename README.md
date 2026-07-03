@@ -4,6 +4,12 @@
 This project demonstrates the design and development of an end-to-end Business Intelligence solution for mining fleet operations.
 Using a synthetic PostgreSQL database, the project integrates **SQL**, **Power BI**, **Power Query**, and **DAX** to analyze productivity, operational efficiency, route performance, operator effectiveness, and fleet reliability through interactive dashboards designed for decision-making.
 
+# Using the database
+1. Create a database named mine.
+2. Run mine.sql.
+3. Open mining.pbix.
+4. Update the data source if necessary.
+
 # Dashboard Overview
 This dashboard was designed to answer key operational questions related to:
 - Fleet productivity
@@ -133,10 +139,13 @@ Dimension Tables
 # Repository Structure
 
 ```
-Mining-Operations-Dashboard/
+Mining/
 │
-├── PowerBI/
-│   └── Mining Operations Dashboard.pbix
+├── db/
+│   └── mine.sql
+│
+├── powerbi/
+│   └── mining.pbix
 │
 ├── Images/
 │   ├── Executive Overview.png
